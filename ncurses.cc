@@ -641,6 +641,8 @@ class Window : public ObjectWrap {
         }*/
         if (wasStdscr)
           ::endwin();
+      }else{
+        ::endwin();
       }
     }
 
